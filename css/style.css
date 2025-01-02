@@ -1,3 +1,4 @@
+/* common css 👇 */
 * {
     margin: 0;
     padding: 0;
@@ -40,7 +41,7 @@ li {
     color: #FFF;
     text-transform: uppercase;
 }
-
+/* 👆 common css ends 👆 */
 /* navbar css starts here */
 #navbar {
     padding: 35px 0;
@@ -129,12 +130,6 @@ li {
     justify-content: space-between;
 }
 #about .about-wrapper .about-caption{
-    /* font-family: "Open Sans", serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FBD784;
-    text-transform: uppercase;
-    letter-spacing: 6px; */
     margin-bottom: 13px;
 }
 #about .about-wrapper .about-right{
@@ -143,11 +138,6 @@ li {
     /* 👆 আমরা কি এখানে margin-top এর জায়গায় padding-top ব্যবহার করব ? */
 }
 #about .about-wrapper h2{
-    /* font-family: "Open Sans", serif;
-    font-size: 64px;
-    font-weight: 700;
-    color: #FFF;
-    text-transform: uppercase; */
     width: 496px;
     margin-bottom: 13px;
 }
@@ -161,13 +151,6 @@ li {
     width: 587px;
     margin-bottom: 66px;
 }
-/* #about .about-wrapper a{
-    font-family: "Open Sans", serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FBD784;
-    text-transform: uppercase;
-} */
 
 /* about css ends here */
 /* bromo css starts here */
@@ -186,12 +169,6 @@ li {
     text-align: center;
 }
 #bromo .bromo-details .bromo-caption{
-    /* font-family: "Open Sans", serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: #FBD784;
-    text-transform: uppercase;
-    letter-spacing: 6px; */
     margin-bottom: 13px;
 }
 #bromo .bromo-details .bromo-caption{
@@ -313,10 +290,12 @@ footer .info ul:nth-child(2){
     margin-left: 85px ;
     margin-right: 138px ;
 }
-footer .info ul li{
-    margin-bottom: 20px;
+footer .info ul li a{ 
+    margin: 10px 0;
+    /* footer .info ul li a তে footer .info ul li দেওয়া যেত কিনা ?*/
+    /*👆 আমরা কি এ ক্ষেত্রেও এইরকম pseudo element নিবো navbar এর list-items মতো নাকি শুধু margin-bottom: 20px use করলেই হবে ? */
 }
-footer .info ul li:last-child{
+footer .info ul li:last-child a{
     margin-bottom: 0px;
 }
 footer .info ul li a{
