@@ -86,7 +86,7 @@ li {
 /* navbar css ends here */
 /* banner css starts here */
 #banner{
-    background: url(/images/banner.jpg);
+    background: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
