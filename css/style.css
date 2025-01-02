@@ -18,6 +18,29 @@ li {
     width: 1320px;
     margin: 0 auto;
 }
+.caption{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-bottom: 13px;
+}
+.readMore-link{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+.title{
+    font-family: "Open Sans", serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+}
 
 /* navbar css starts here */
 #navbar {
@@ -106,7 +129,7 @@ li {
     display: flex;
     justify-content: space-between;
 }
-#about .about-wrapper .about-caption{
+/* #about .about-wrapper .about-caption{
     font-family: "Open Sans", serif;
     font-size: 18px;
     font-weight: 700;
@@ -114,22 +137,22 @@ li {
     text-transform: uppercase;
     letter-spacing: 6px;
     margin-bottom: 13px;
-}
+} */
 #about .about-wrapper .about-right{
     margin-top: 40px;
     /* padding-top: 40px; */
     /* 👆 আমরা কি এখানে margin-top এর জায়গায় padding-top ব্যবহার করব ? */
 }
 #about .about-wrapper h2{
-    font-family: "Open Sans", serif;
+    /* font-family: "Open Sans", serif;
     font-size: 64px;
     font-weight: 700;
     color: #FFF;
-    text-transform: uppercase;
+    text-transform: uppercase; */
     width: 496px;
     margin-bottom: 13px;
 }
-#about .about-wrapper p{
+#about .about-wrapper .about-description{
     font-family: "Open Sans", serif;
     font-size: 14px;
     font-weight: 600;
@@ -139,12 +162,60 @@ li {
     width: 587px;
     margin-bottom: 66px;
 }
-#about .about-wrapper a{
+/* #about .about-wrapper a{
     font-family: "Open Sans", serif;
     font-size: 18px;
     font-weight: 700;
     color: #FBD784;
     text-transform: uppercase;
-}
+} */
 
 /* about css ends here */
+/* bromo css starts here */
+#bromo{
+    padding-bottom: 295px;
+    background: black;
+}
+#bromo .bromo-wrapper{
+    background: url('../images/Bromo.jpg');
+    padding-top: 559px;
+    padding-bottom: 33px;
+}
+#bromo .bromo-details{
+    width: 932px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* #bromo .bromo-details .bromo-caption{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+} */
+#bromo .bromo-details .bromo-caption{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+#bromo .bromo-details h2{
+    margin-bottom: 14px;
+}
+#bromo .bromo-details .bromo-description{
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    line-height: 32px;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 893px;
+    margin-bottom: 26px;
+}
+/* bromo css ends here */
+/* culture css starts here */
+/* culture css ends here */
+/* footer css starts here */
+/* footer css ends here */
