@@ -25,7 +25,6 @@ li {
     color: #FBD784;
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin-bottom: 13px;
 }
 .readMore-link{
     font-family: "Open Sans", serif;
@@ -121,7 +120,7 @@ li {
 /* about css starts here */
 #about{
     padding-top: 285px;
-    padding-bottom: 295px;
+    padding-bottom: 147px;
     background: black;
     color: white;
 }
@@ -129,15 +128,15 @@ li {
     display: flex;
     justify-content: space-between;
 }
-/* #about .about-wrapper .about-caption{
-    font-family: "Open Sans", serif;
+#about .about-wrapper .about-caption{
+    /* font-family: "Open Sans", serif;
     font-size: 18px;
     font-weight: 700;
     color: #FBD784;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 6px; */
     margin-bottom: 13px;
-} */
+}
 #about .about-wrapper .about-right{
     margin-top: 40px;
     /* padding-top: 40px; */
@@ -173,7 +172,7 @@ li {
 /* about css ends here */
 /* bromo css starts here */
 #bromo{
-    padding-bottom: 295px;
+    padding: 148px 0;
     background: black;
 }
 #bromo .bromo-wrapper{
@@ -186,14 +185,15 @@ li {
     margin: 0 auto;
     text-align: center;
 }
-/* #bromo .bromo-details .bromo-caption{
-    font-family: "Open Sans", serif;
+#bromo .bromo-details .bromo-caption{
+    /* font-family: "Open Sans", serif;
     font-size: 18px;
     font-weight: 700;
     color: #FBD784;
     text-transform: uppercase;
-    letter-spacing: 6px;
-} */
+    letter-spacing: 6px; */
+    margin-bottom: 13px;
+}
 #bromo .bromo-details .bromo-caption{
     font-family: "Open Sans", serif;
     font-size: 18px;
@@ -216,6 +216,129 @@ li {
 }
 /* bromo css ends here */
 /* culture css starts here */
+#culture{
+    padding-top: 147px;
+    padding-bottom: 199px;
+    background-color: black;
+}
+#culture .culture-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#culture .culture-wrapper .culture-caption{
+    margin-bottom: 19px;
+}
+#culture .culture-wrapper h2{
+    margin-bottom: 19px;
+    width: 655px;
+}
+#culture .culture-wrapper .culture-description{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    text-transform: uppercase;
+    width: 655px;
+    margin-bottom: 47px;
+}
 /* culture css ends here */
 /* footer css starts here */
+footer{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    background: black;
+}
+footer .footer-top{
+    display: flex;
+    align-items: center;
+}
+footer .footer-logo{
+    width: 50%;
+}
+footer .footer-btn-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 18px;
+}
+footer .btn-caption{
+    font-family: "Open Sans", serif;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    color: white;
+    text-transform: capitalize;
+}
+footer button{
+    padding: 20px 67px;
+    font-size: 17px;
+    font-weight: bold;
+    background: #FFA343;
+    border: none;
+    border-radius: 10px;
+}
+footer .footer-details{
+    width: 423px;
+    margin-top: 27px;
+}
+footer .footer-title{
+    font-family: "Open Sans", serif;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.3px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 36px;
+}
+footer .footer-terms{
+    font-family: "Open Sans", serif;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    color: #fff;
+    margin-bottom: 48px;
+}
+footer .social-icons .fa-twitter{
+    margin: 0 29px;
+}
+footer .footer-bottom{
+    display: flex;
+    gap: 275px;
+    margin-top: 73px;
+}
+footer .info{
+    display: flex;
+}
+footer .info ul:nth-child(2){
+    margin-left: 85px ;
+    margin-right: 138px ;
+}
+footer .info ul li{
+    margin-bottom: 20px;
+}
+footer .info ul li:last-child{
+    margin-bottom: 0px;
+}
+footer .info ul li a{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+    color:#fff
+}
+footer .info ul li:first-child a{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.23px;
+    color:#FFD1A0
+}
+footer .copyright p{
+    font-family: "Open Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #7F7F7F;
+    margin-top: 154px;
+    border: none;
+}
 /* footer css ends here */
